@@ -1,0 +1,172 @@
+
+
+@import url('https://fonts.googleapis.com/css2? family= Merienda & familia= Oswald:peso@300 & display=swap');
+
+
+body { padding-left: 15em;
+    font-family:inherit,sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    background-color: skyblue;
+    opacity: 0.8;
+  
+    }
+.main.menu.categoriaDesa{
+    background: rgba(03.03.03,.45);
+    padding-right: 920px;
+    color: antiquewhite;
+}
+    
+ul.navbar{
+
+   list-style-type:none;
+   padding:0;
+   margin:0;
+   position:absolute;
+   top:3em;
+    left:0em;
+    width:7em;
+    opacity: 0.9;
+   }
+
+ul.navbar li {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-top: 1em solid powderblue ;
+    background: #FFFFFF;
+}
+h1 { text-align: center;
+    margin-left: 80px;
+   margin-top: 20px;
+   font-size: 180%;
+   color: #2D572C;
+   font-family: Merienda, cursive;
+   font-weight:900;
+   
+  }
+
+h2, h3,h4 {font-family: Georgia,Times,serif;
+   font-size: 150%;
+   color: #2D572C;
+   margin-top: 0;
+   margin-left: 30px; }
+
+h3 { color: #007500; }
+
+footer{
+    max-width: 1800ppx;
+    min-height: 10px;
+    background: #AED581;
+    margin:  0 auto;
+    border-radius: 0 0 15px 15px;
+    color: #2F5233;
+    text-align:center;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family:inherit;
+    font-size: 18px;
+}
+
+p {
+   text-align: left;
+   line-height: 1.5em;
+  text-indent: 1px;
+  margin: 0px;
+  padding: 0rem;
+  font-family: 'Oswald', sans-serif;}
+
+img { border: 2px solid #9DC209;
+    margin: 30px;
+    float:right;
+} 
+
+div.navbar { margin: 0 20px 20px;
+          background-color: #40e0d0;}
+
+.azul { font-weight: bold;
+        color: #6C6CCA;  }
+
+ body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #204862;
+ }       
+ h5{
+    color:blue;
+    text-align: center;
+    font-size: 150%;
+ }
+ .form-register{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+ }
+ .form-titulo{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-right-radius: 7pxs;
+    border-bottom: 5px solid #007500;
+ }
+ .contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid black;
+ }
+ .input-48{
+    width: 48%;
+ }
+ .input-100{
+    width: 100%;
+ }
+ .btn-enviar{
+    background:#AED581 ;
+    color:#007500 ;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+ }
+ .btn-enviar:active{
+    transform:scale(1.05);
+ }
+ .form__link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 15px;
+ }
+ #alert{
+   width: 200px;
+   padding: 5px;
+   background-color: black;
+   color: red;
+   display: none;
+ }
+ h7{
+   align-content: center;
+   padding: 0%;
+   text-align: right;
+    font-size: 130%;
+   font-weight: 800;
+   
+   margin-right: 0px;
+    color:#007500;
+ }
+
+
+ 

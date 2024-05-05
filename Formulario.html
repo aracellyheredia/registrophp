@@ -1,0 +1,88 @@
+<html>
+<head>
+    <link rel="stylesheet"type="text/css"href="floramics.css"/>
+    <script src="validar.js"></script>
+ <title>Formulario de registro</title>
+</head>
+   
+    <style>
+        body{
+            background-image: url(aguavida/aguavid2.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+    
+    <div class="cuerpo">
+         <div class="img">
+            <img src="agua2.jpg" width="950" height="180">
+        </div>
+    
+    </div>
+<body1> 
+     <!--Menu de navegacion del sitio-->
+    <ul class="navbar">
+       <li><a href="index.html">Presentacion:</a></li>
+        <li><a href="flores.html">Funciones:</a></li>
+        <li><a href="agua.html">Importancia:</a></li>
+        <li><a href="Formulario.html">Formulario:</a></li>
+    </ul>
+  
+<div class="navbar">
+    
+  <h5>LLENAR EL FORMULARIO </h5>  
+  <meta charset="UTF-8">
+  <form action="reg.php"method="POST"class="form-register" >
+    <h6 class="form-titulo">VOLUNTARIADO AMBIENTAL</h6>
+    <div class="Contenedor-inputs">
+        
+        <input type="text" id="nombre" name="nombre"placeholder="Nombre" class="input-48"required>
+        <input type="text" id="apellidos"name="apellidos"placeholder="Apellidos"class="input-48"required>
+        <input type="email"id="correo" name="correo"placeholder="Correo" class="input-100"required>
+        <input type="text"id="usuario" name="usuario"placeholder="Usuario"class="input-48"required>
+        <input type="password"id="clave"name="clave"placeholder="Contraseña"class="input-48"required>
+        <input type="text" id="telefono"name="telefono"placeholder="Telefono"class="input-100"required>
+        
+        
+    <div class="seccion">
+        <h7>Sexo</h7>
+        <p> <input type="radio" name="sexo" value="hombre"/> Hombre</p>
+        <p><input type="radio" name="sexo" value="mujer"/> Mujer</p>
+    </div>
+
+    
+   
+        <div class="seccion">
+            <h7>Disponibilidad</h7>
+            <p><input type="checkbox" name="disponibilidad[]" value="mañanas" /> Mañanas</p>
+            <p><input type="checkbox" name="disponibilidad[]" value="tardes"/> Tardes</p>
+            <p><input type="checkbox" name="disponibilidad[]" value="fines"/> Fines </p>
+            
+        </div>
+
+        <div class="seccion">
+            <h7>EDAD</h7>
+            <select  name="edad">
+                <option >18-25años</option>
+                <option value="26-35años">26-35años</option>
+            </select>
+        </div>
+
+        <div class="vacio"></div>
+        <p><input type="submit" value="Registrar" class="btn-enviar">
+        
+        <p1 class="form__link">Ya tienes una cuenta?<a href="#">Ingresa aqui</a></p1>
+   
+    </div>
+    
+  </form>
+ 
+</div>
+    
+    <footer>
+    Derechos Reservados &copy; 2023<br>
+    Disenado por :Aracelly Heredia Garcia<br>
+    
+    </footer>
+</body1>
+</html>
